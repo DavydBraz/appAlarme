@@ -29,7 +29,7 @@ Bem-vindo ao **AlarmApp**, um aplicativo de alarme funcional para Android! Desen
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob uma licença de código aberto.
 
 ## Contato
 
