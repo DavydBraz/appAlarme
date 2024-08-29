@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_binding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="395dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@color/cinza_claro"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <TextView
+                android:id="@+id/NomeNotificacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Nome da Notificicacao"
+                android:textColorLink="@color/azul"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/HoraDoAlarme"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/HoraDoAlarme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="serif"
+                android:text="8:00"
+                android:textColorLink="@color/azul"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/DiasAlarme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Segunda, Terça"
+                android:textColorLink="@color/azul"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/NomeNotificacao"
+                app:layout_constraintEnd_toStartOf="@+id/BtnEditar"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/NomeNotificacao"
+                app:layout_constraintTop_toTopOf="@+id/NomeNotificacao"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageButton
+                android:id="@+id/BtnEditar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@color/cinza_claro"
+                android:contentDescription="button editar"
+                app:layout_constraintBottom_toBottomOf="@+id/DiasAlarme"
+                app:layout_constraintEnd_toStartOf="@+id/BtnExcluir"
+                app:layout_constraintTop_toTopOf="@+id/DiasAlarme"
+                app:layout_constraintVertical_bias="0.269"
+                app:srcCompat="@drawable/baseline_mode_edit_24" />
+
+            <Switch
+                android:id="@+id/StatusAlarme"
+                android:layout_width="57dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="16dp"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:textColorLink="@color/azul"
+                app:layout_constraintBottom_toBottomOf="@+id/HoraDoAlarme"
+                app:layout_constraintStart_toStartOf="@+id/DiasAlarme"
+                app:layout_constraintTop_toBottomOf="@+id/DiasAlarme"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageButton
+                android:id="@+id/BtnExcluir"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="4dp"
+                android:background="@color/cinza_claro"
+                android:contentDescription="Button Excluir"
+                app:layout_constraintBottom_toBottomOf="@+id/BtnEditar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/BtnEditar"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/outline_delete_24" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFFFF</color>
+    <color name="azul_carvao">#2D3142</color>
+    <color name="cinza_ardosia">#4F5D75</color>
+    <color name="cinza_claro">#BFC0C0</color>
+    <color name="coral">#EF8354</color>
+    <color name="azul">#0000FF</color>
+    <color name="vermelho_escuro">#A80C0C</color>
+    <color name="verde_escuro">#1B8008</color>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="viewEnd"
+    tools:context=".fragments.MenuFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="383dp"
+        android:layout_height="449dp"
+        android:backgroundTint="@color/cinza_ardosia"
+        app:cardBackgroundColor="@color/branco"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:text="Menu"
+                android:textColor="@color/branco"
+                android:textColorLink="@color/azul"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textButtonTeste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:elevation="40dp"
+                android:text="Notificação"
+                android:textColor="@color/preto"
+                android:textColorLink="@color/azul"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/BtnNotificacaoS"
+                app:layout_constraintEnd_toEndOf="@+id/BtnNotificacaoS"
+                app:layout_constraintStart_toStartOf="@+id/BtnNotificacaoS"
+                app:layout_constraintTop_toTopOf="@+id/BtnNotificacaoS"
+                app:layout_constraintVertical_bias="0.909" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/BtnNotificacaoS"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:contentDescription="Button Notificacao"
+                android:src="@drawable/notifications_48"
+                android:textAlignment="center"
+                app:backgroundTint="@color/branco"
+                app:borderWidth="38dp"
+                app:fabCustomSize="150dp"
+                app:fabSize="auto"
+                app:layout_constraintEnd_toEndOf="@+id/BtnCronometro"
+                app:layout_constraintStart_toStartOf="@+id/BtnTemporizador"
+                app:layout_constraintTop_toBottomOf="@+id/BtnTemporizador"
+                app:maxImageSize="72dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/BtnTemporizador"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:clickable="true"
+                android:contentDescription="Button Temporizador"
+                android:src="@drawable/baseline_timelapse_24"
+                app:backgroundTint="@color/branco"
+                app:borderWidth="38dp"
+                app:fabCustomSize="150dp"
+                app:fabSize="auto"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:maxImageSize="78dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:elevation="40dp"
+                android:text="Temporizador"
+                android:textColor="@color/preto"
+                android:textColorLink="@color/azul"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/BtnTemporizador"
+                app:layout_constraintEnd_toEndOf="@+id/BtnTemporizador"
+                app:layout_constraintStart_toStartOf="@+id/BtnTemporizador" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/BtnCronometro"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:clickable="true"
+                android:contentDescription="Button Cronometro"
+                android:src="@drawable/baseline_timer_24"
+                app:backgroundTint="@color/branco"
+                app:borderWidth="38dp"
+                app:fabCustomSize="150dp"
+                app:fabSize="auto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:maxImageSize="72dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:elevation="40dp"
+                android:text="Cronometro"
+                android:textColor="@color/preto"
+                android:textColorLink="@color/azul"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/BtnCronometro"
+                app:layout_constraintEnd_toEndOf="@+id/BtnCronometro"
+                app:layout_constraintStart_toStartOf="@+id/BtnCronometro" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="152dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
