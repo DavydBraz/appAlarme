@@ -33,7 +33,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Para mais informações, entre em contato com [davydbraz11@gmail.com](davydbraz11@gmail.com).
+Para mais informações, entre em contato com [davydbraz55@gmail.com](mailto:davydbraz55@gmail.com).
 
 ---
 
