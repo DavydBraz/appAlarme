@@ -1,6 +1,6 @@
-# AlarmApp
+# NotificaçãoApp
 
-Bem-vindo ao **AlarmApp**, um aplicativo de alarme funcional para Android! Desenvolvido utilizando fragments, o padrão DAO, coroutines e operações CRUD.
+Bem-vindo ao **NotificaçãoApp**, um aplicativo de alarme funcional para Android! Desenvolvido utilizando fragments, o padrão DAO, coroutines e operações CRUD.
 
 ## Funcionalidades
 
@@ -23,7 +23,7 @@ Bem-vindo ao **AlarmApp**, um aplicativo de alarme funcional para Android! Desen
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/seurepositorio/alarmapp.git`
+1. Clone o repositório: `git clone https://github.com/seurepositorio/NotificaçãoApp.git`
 2. Abra o projeto no Android Studio.
 3. Compile e execute o aplicativo em um dispositivo ou emulador Android.
 
