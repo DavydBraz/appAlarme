@@ -23,7 +23,7 @@ Bem-vindo ao **NotificaçãoApp**, um aplicativo de alarme funcional para Androi
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/seurepositorio/NotificaçãoApp.git`
+1. Clone o repositório: `git clone https://github.com/DavydBraz/appAlarme`
 2. Abra o projeto no Android Studio.
 3. Compile e execute o aplicativo em um dispositivo ou emulador Android.
 
